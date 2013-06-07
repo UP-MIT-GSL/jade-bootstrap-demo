@@ -1,3 +1,8 @@
 body {
 	font-size: 100%;
 }
+
+.navbar-inverse > .navbar-inner {
+	background: #801129;
+}
+
