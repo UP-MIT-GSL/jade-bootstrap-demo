@@ -1,0 +1,18 @@
+body {
+	font-size: 100%;
+	background: url('../img/bg-clouds-small.png') repeat-x;
+}
+
+.navbar-inverse > .navbar-inner {
+	background: #801129;
+}
+
+footer {
+	opacity: 0.9;
+	font-size: 0.7em;
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
