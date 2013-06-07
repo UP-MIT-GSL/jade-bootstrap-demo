@@ -14,6 +14,8 @@ group :development do
   gem 'terminal-notifier-guard', :require => false
   gem 'libnotify', :require => false
 
+  gem 'guard-copy'
   gem 'guard-helpers'
   gem 'guard-jade'
 end
+
