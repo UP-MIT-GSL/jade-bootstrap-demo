@@ -6,6 +6,8 @@ html(lang='en')
 		title UVLe Login
 
 		link(rel='stylesheet', href='css/bootstrap.css')
+		style(type='text/css')
+			body {padding-top: 60px;padding-bottom: 40px}
 		link(rel='stylesheet', href='css/app.css')
 
 	body
@@ -25,4 +27,17 @@ html(lang='en')
 						li
 							a(href='#') Online Resources
 						li
-							a(href='#') What say they?		
+							a(href='#') What say they?
+		.container
+			form
+				.controls
+					input(type='text', placeholder='Username')
+				.controls
+					input(type='password', placeholder='Password')
+				.controls	
+					a Forgot your password?
+				.controls
+					button.btn.btn-inverse(type='submit')	Login	
+			img(src='img/ikot.png').pull-right
+
+
